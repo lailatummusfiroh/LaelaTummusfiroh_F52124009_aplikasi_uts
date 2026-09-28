@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_card"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <!-- Fruit Image Container -->
+    <FrameLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_image_container"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/imgFruit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Gambar Buah"
+            android:scaleType="fitCenter"
+            android:src="@drawable/apel" />
+    </FrameLayout>
+
+    <!-- Details Section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="14dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Fruit Name -->
+        <TextView
+            android:id="@+id/tvFruitName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apel Merah"
+            android:textColor="#1A202C"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Latin Name -->
+        <TextView
+            android:id="@+id/tvLatinName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Nama Latin: Malus domestica"
+            android:textColor="#4A5568"
+            android:textSize="12sp" />
+
+        <!-- Nutrition / Kandungan -->
+        <TextView
+            android:id="@+id/tvNutrition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Kandungan: Vitamin C, Serat, Kalium"
+            android:textColor="#4A5568"
+            android:textSize="12sp" />
+
+        <!-- Benefit / Manfaat -->
+        <TextView
+            android:id="@+id/tvBenefit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Manfaat: Menjaga Kesehatan Jantung"
+            android:textColor="#4A5568"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

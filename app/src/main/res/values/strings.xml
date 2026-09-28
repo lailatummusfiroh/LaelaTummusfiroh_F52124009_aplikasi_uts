@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Buah Nusantara</string>
+    <string name="header_title">Katalog Buah Nusantara</string>
+    <string name="subheader_title">Daftar Buah Segar, Kandungan &amp; Manfaat Kesehatan</string>
+    <string name="search_hint">Cari Buah (Nama/Latin/Vitamin)</string>
+    <string name="label_latin">Nama Latin: </string>
+    <string name="label_nutrition">Kandungan: </string>
+    <string name="label_benefit">Manfaat: </string>
+</resources>

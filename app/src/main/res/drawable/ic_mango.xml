@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Mango Body -->
+    <path
+        android:fillColor="#DD6B20"
+        android:pathData="M32,12 C18,12 12,24 12,38 C12,50 24,56 34,56 C46,56 52,42 52,30 C52,18 42,12 32,12 Z"/>
+    <!-- Yellow Blush -->
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M24,16 C16,24 16,38 24,48 C18,38 18,24 24,16 Z"/>
+    <!-- Stem -->
+    <path
+        android:fillColor="#744210"
+        android:pathData="M31,12 C30,8 33,6 33,6 C33,6 32,10 32,12 Z"/>
+    <!-- Leaf -->
+    <path
+        android:fillColor="#2F855A"
+        android:pathData="M32,8 C38,4 44,8 44,8 C44,8 38,12 32,8 Z"/>
+</vector>

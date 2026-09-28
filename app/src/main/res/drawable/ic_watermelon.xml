@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Green Rind -->
+    <path
+        android:fillColor="#276749"
+        android:pathData="M10,24 A26,26 0 0,0 54,24 L10,24 Z"/>
+    <!-- Light Green / White Inner Rind -->
+    <path
+        android:fillColor="#9AE6B4"
+        android:pathData="M13,24 A23,23 0 0,0 51,24 L13,24 Z"/>
+    <!-- Red Flesh -->
+    <path
+        android:fillColor="#E53E3E"
+        android:pathData="M16,24 A20,20 0 0,0 48,24 L16,24 Z"/>
+    <!-- Seeds -->
+    <path
+        android:fillColor="#1A202C"
+        android:pathData="M24,28 A1.5,2 0 1,1 24,32 A1.5,2 0 1,1 24,28 Z M32,32 A1.5,2 0 1,1 32,36 A1.5,2 0 1,1 32,32 Z M40,28 A1.5,2 0 1,1 40,32 A1.5,2 0 1,1 40,28 Z M28,36 A1.5,2 0 1,1 28,40 A1.5,2 0 1,1 28,36 Z M36,36 A1.5,2 0 1,1 36,40 A1.5,2 0 1,1 36,36 Z"/>
+</vector>

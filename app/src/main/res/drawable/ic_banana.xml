@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Banana Body -->
+    <path
+        android:fillColor="#ECC94B"
+        android:pathData="M12,48 C20,56 42,54 52,38 C56,32 54,18 50,14 C48,22 42,42 22,46 C16,47 12,48 12,48 Z"/>
+    <!-- Stem tip -->
+    <path
+        android:fillColor="#744210"
+        android:pathData="M50,14 C52,12 54,12 54,14 C53,16 50,16 50,14 Z"/>
+    <!-- Bottom tip -->
+    <path
+        android:fillColor="#744210"
+        android:pathData="M12,48 C10,49 8,48 10,46 C11,46 12,48 12,48 Z"/>
+    <!-- Highlight line -->
+    <path
+        android:fillColor="#FEFCBF"
+        android:pathData="M48,20 C42,36 26,42 20,44 C28,42 42,34 48,20 Z"/>
+</vector>

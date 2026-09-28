@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Leaves / Crown -->
+    <path
+        android:fillColor="#2F855A"
+        android:pathData="M32,24 L26,8 L32,16 L38,8 L32,24 Z M32,22 L20,12 L28,20 M32,22 L44,12 L36,20"/>
+    <!-- Body Oval -->
+    <path
+        android:fillColor="#D69E2E"
+        android:pathData="M32,22 C22,22 16,30 16,42 C16,52 22,58 32,58 C42,58 48,52 48,42 C48,30 42,22 32,22 Z"/>
+    <!-- Crosshatch pattern lines -->
+    <path
+        android:strokeColor="#B7791F"
+        android:strokeWidth="1.5"
+        android:pathData="M20,32 L44,52 M18,42 L38,58 M26,24 L48,42 M44,32 L20,52 M46,42 L26,58 M38,24 L16,42"/>
+</vector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="header_bg">#1A365D</color>
+    <color name="subheader_bg">#2B6CB0</color>
+    <color name="search_bg">#FFFFFF</color>
+    <color name="search_border">#CBD5E0</color>
+    <color name="text_primary">#1A202C</color>
+    <color name="text_secondary">#4A5568</color>
+    <color name="text_muted">#718096</color>
+    <color name="list_bg">#EDF2F7</color>
+</resources>

@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Orange Body -->
+    <path
+        android:fillColor="#ED8936"
+        android:pathData="M32,14 C19.85,14 10,23.85 10,36 C10,48.15 19.85,58 32,58 C44.15,58 54,48.15 54,36 C54,23.85 44.15,14 32,14 Z"/>
+    <!-- Leaf -->
+    <path
+        android:fillColor="#38A169"
+        android:pathData="M32,14 C32,8 40,6 42,6 C42,6 40,12 32,14 Z"/>
+    <!-- Stem spot -->
+    <path
+        android:fillColor="#744210"
+        android:pathData="M31,13 A1,1 0 1,1 33,13 A1,1 0 1,1 31,13 Z"/>
+    <!-- Highlight -->
+    <path
+        android:fillColor="#FBD38D"
+        android:pathData="M20,22 C16,28 16,38 20,44 C18,38 18,28 20,22 Z"/>
+</vector>
